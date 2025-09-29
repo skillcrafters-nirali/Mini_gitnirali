@@ -1,15 +1,11 @@
 import "./App.css";
-import Footer from "./component/Footer/Footer";
-import Header from "./component/Header/Header";
-import Home from "./Page/Home/Home";
+import ContactList from "./component/ContactList/ContactList";
 
 function App() {
   return (
     <>
-      <Home />
-      <Header />
-      <h1>Hello Git and Github</h1>
-      <Footer />
+      <h1>Contact Manager</h1>
+      <ContactList />
     </>
   );
 }

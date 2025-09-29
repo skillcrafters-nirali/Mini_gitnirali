@@ -1,0 +1,97 @@
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.contact-form input.error {
+  border-color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.contact-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  width: fit-content;
+  align-self: center;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contacts-list {
+  display: grid;
+  gap: 15px;
+}
+
+.contact-card {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.contact-card h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.contact-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.contact-card button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.contact-card button:hover {
+  background-color: #c82333;
+}
