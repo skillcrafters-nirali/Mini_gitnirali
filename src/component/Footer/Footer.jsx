@@ -1,0 +1,11 @@
+import React from "react";
+
+const Footer = () => {
+  return (
+    <>
+      <h1>Hello i am from footer section </h1>
+    </>
+  );
+};
+
+export default Footer;

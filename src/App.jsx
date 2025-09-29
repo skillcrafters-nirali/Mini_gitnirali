@@ -1,11 +1,13 @@
 import "./App.css";
+import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
 
 function App() {
   return (
     <>
-      <h1>Hello Git and Github</h1>
       <Header />
+      <h1>Hello Git and Github</h1>
+      <Footer />
     </>
   );
 }
